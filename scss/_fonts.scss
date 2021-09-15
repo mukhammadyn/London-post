@@ -1,1 +1,36 @@
 /* FONTS */
+@font-face {
+  font-family: 'DM Serif Display';
+  src: url('../font/DMSerifDisplay-Italic.woff2') format('woff2'),
+      url('../font/DMSerifDisplay-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DM Serif Display';
+  src: url('../font/DMSerifDisplay-Regular.woff2') format('woff2'),
+      url('../font/DMSerifDisplay-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Karla';
+  src: url('Karla-Italic.woff2') format('woff2'),
+      url('Karla-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Karla';
+  src: url('Karla-Regular.woff2') format('woff2'),
+      url('Karla-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
