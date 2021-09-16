@@ -13,17 +13,17 @@
 
   <header class="site-header">
     <div class="site-header__container container">
-      <a class="site-header__logo-link" href="index.html">
+      <a class="site-header__logo-link" href="#index.html">
         <img class="site-header__logo" src="https://picsum.photos/104/49" alt="logo" width="104" height="49">
       </a>
 
       <nav class="site-header__nav site-nav">
         <ul class="site-nav__list">
-          <li class="site-nav__item site-nav__item--active"><a class="site-nav__item-link" href="index.html">Home</a>
+          <li class="site-nav__item"><a class="site-nav__item-link" href="index.html">Home</a>
           </li>
           <li class="site-nav__item"><a class="site-nav__item-link js-services-modal-toggler"
-              href="#services.html">Services</a></li>
-          <li class="site-nav__item"><a class="site-nav__item-link" href="about.html">About</a></li>
+              href="services.html">Services</a></li>
+          <li class="site-nav__item site-nav__item--active"><a class="site-nav__item-link" href="about.html">About</a></li>
         </ul>
       </nav>
 
@@ -35,7 +35,10 @@
   </header>
 
   <main class="site-main">
-    <h1 class="visually-hidden">Cargo</h1>
+    <div class="site-main__container container">
+      <h1 class="site-main__heading">About</h1>
+      <p class="site-main__text">Since 1972, US Cargo has been committed to providing our customers with reliable, convenient commercial and residential delivery services. ... Our personalized delivery services and solutions create sustainable, long-term value for our customers, business partners, and employees.</p>
+    </div>
   </main>
 
   <footer class="site-footer">

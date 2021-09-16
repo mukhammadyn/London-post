@@ -16,14 +16,14 @@
 
 .site-nav__item-link {
   transition: opacity 0.3s ease;
-}
+  
+  &:hover {
+    color: #fff;
+  }
 
-.site-nav__item-link:hover {
-  color: #fff;
-}
-
-.site-nav__item-link:active {
-  opacity: 0.6;
+  &:active {
+    opacity: 0.6;
+  }
 }
 
 .site-nav__item--active .site-nav__item-link {
